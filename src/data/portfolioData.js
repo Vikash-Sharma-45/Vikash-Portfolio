@@ -4,35 +4,35 @@
 export const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "Full-stack MERN application with user authentication, product catalog, cart management, and Stripe payment integration. Features real-time inventory updates and admin dashboard.",
+    title: "Calori Tracker",
+    description: "Cal Ai a calori tracker app tha tracks realtime daily calories",
     image: null, // TODO: Add project screenshot
     category: "Full Stack",
     tech: ["React", "Node.js", "Express", "MongoDB", "Stripe", "Tailwind"],
-    github: "https://github.com/vikashsparmar", // TODO: Replace
-    demo: "#", // TODO: Replace
+    github: "https://github.com/Vikash-Sharma-45/Cal-Ai", // TODO: Replace
+    demo: "https://cal-ai-irk8.vercel.app/#/onboarding", // TODO: Replace
     featured: true,
   },
   {
     id: 2,
     title: "Real-Time Chat App",
-    description: "Live messaging application built with Socket.io supporting private chats, group rooms, file sharing, and real-time typing indicators.",
+    description: "An innovative web application that leverages advanced AI models to generate humorous and context-aware excuses for various situations. Features include a chat interface, customizable excuse categories, and social sharing options. Built with a focus on user experience and responsive design.",
     image: null,
     category: "Full Stack",
     tech: ["React", "Node.js", "Socket.io", "MongoDB", "Express"],
-    github: "https://github.com/vikashsparmar",
-    demo: "#",
+    github: "https://notmyfaultai.vercel.app",
+    demo: "https://notmyfaultai.vercel.app",
     featured: true,
   },
   {
     id: 3,
-    title: "Task Management Dashboard",
-    description: "Kanban-style project tracker with drag-and-drop interface, team collaboration features, deadline tracking, and priority management.",
+    title: "SukoonAI",
+    description: "SukoonAI is an AI-powered mental health support platform developed as a team project, aimed at providing accessible and empathetic emotional assistance. The platform offers real-time AI-driven conversations, personalized wellness suggestions, and a secure, user-friendly experience to support mental well-being anytime, anywhere.",
     image: null,
     category: "Full Stack",
     tech: ["React", "Redux", "Node.js", "Express", "MongoDB"],
-    github: "https://github.com/vikashsparmar",
-    demo: "#",
+    github: "https://github.com/Vikash-Sharma-45/Sukoon-Ai-Backend",
+    demo: "https://sukoon-ai-kttc.vercel.app",
     featured: true,
   },
   {
@@ -116,7 +116,7 @@ export const experience = [
     id: 1,
     company: "Xorvo Technologies",
     role: "Backend Developer Intern",
-    duration: "Jan 2024 - Apr 2024", // TODO: Update actual dates
+    duration: "Aug 2026 - Oct 2025", // TODO: Update actual dates
     location: "Remote", // TODO: Update actual location
     type: "Internship",
     achievements: [
@@ -132,7 +132,7 @@ export const experience = [
     id: 2,
     company: "Freelance Projects",
     role: "Full Stack Developer",
-    duration: "2023 - Present",
+    duration: "Oct 2025 - Present",
     location: "Remote",
     type: "Freelance",
     achievements: [
@@ -149,9 +149,9 @@ export const experience = [
 export const education = [
   {
     id: 1,
-    degree: "B.Tech in CSE (AI & ML)",
+    degree: "B.Tech in CSE (Artificial Intellegence & Machine Learning)",
     institution: "Dr. A.P.J. Abdul Kalam Technical University (AKTU)",
-    duration: "2021 - 2025",
+    duration: "2023 - 2027",
     cgpa: "X.X/10", // TODO: Add actual CGPA
     highlights: [
       "Data Structures & Algorithms",
@@ -165,21 +165,21 @@ export const education = [
   },
   {
     id: 2,
-    degree: "Intermediate (12th - Science)",
+    degree: "12th - Science (CBSE Board)",
     institution: "Navjeevan Mission School",
-    duration: "Year", // TODO: Add year
-    percentage: "XX%", // TODO: Add percentage
-    highlights: ["Physics", "Chemistry", "Mathematics", "Computer Science"],
+    duration: "2022", // TODO: Add year
+    percentage: "68%", // TODO: Add percentage
+    highlights: ["Physics", "Chemistry", "Mathematics", "English"],
     color: "#06B6D4",
     icon: "📚",
   },
   {
     id: 3,
-    degree: "Matriculation (10th)",
+    degree: "10th (CBSE Board)",
     institution: "Divya Jyoti Public School",
-    duration: "Year", // TODO: Add year
-    percentage: "XX%", // TODO: Add percentage
-    highlights: ["Mathematics", "Science", "Social Studies", "Hindi"],
+    duration: "2020", // TODO: Add year
+    percentage: "75%", // TODO: Add percentage
+    highlights: ["Mathematics", "Science", "Social Studies", "Hindi", "English"],
     color: "#F59E0B",
     icon: "🏫",
   },
@@ -191,7 +191,7 @@ export const achievements = [
     id: 1,
     category: "Certification",
     title: "Full Stack Web Development",
-    issuer: "Udemy / Coursera", // TODO: Add actual platform
+    issuer: "Apna College", // TODO: Add actual platform
     year: "2023",
     icon: "🏆",
     color: "#10B981",
@@ -210,7 +210,7 @@ export const achievements = [
     category: "Certification",
     title: "JavaScript Algorithms & Data Structures",
     issuer: "freeCodeCamp",
-    year: "2022",
+    year: "2023",
     icon: "⚡",
     color: "#F59E0B",
   },
@@ -226,18 +226,18 @@ export const achievements = [
   {
     id: 5,
     category: "Hackathon",
-    title: "Smart India Hackathon",
-    issuer: "[Position]", // TODO: Add position/achievement
-    year: "2023",
+    title: "Nexux Hackathon",
+    issuer: "2nd", // TODO: Add position/achievement
+    year: "2024",
     icon: "💡",
     color: "#06B6D4",
   },
   {
     id: 6,
-    category: "Achievement",
-    title: "Open Source Contributor",
-    issuer: "10+ merged PRs", // TODO: Update actual number
-    year: "2023-2024",
+    category: "Hackathon",
+    title: "Hack With India",
+    issuer: "10th", // TODO: Update actual number
+    year: "2026",
     icon: "🚀",
     color: "#8B5CF6",
   },

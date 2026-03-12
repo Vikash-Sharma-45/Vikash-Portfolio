@@ -102,10 +102,10 @@ const Hero = () => {
   const scrollTo = (id) => document.querySelector(id)?.scrollIntoView({ behavior: 'smooth' });
 
   const socials = [
-    { icon: <FiGithub size={19} />, href: 'https://github.com/vikashsparmar', label: 'GitHub' },      // TODO: Update URL
-    { icon: <FiLinkedin size={19} />, href: 'https://linkedin.com/in/vikash-sharma', label: 'LinkedIn' }, // TODO: Update URL
+    { icon: <FiGithub size={19} />, href: 'https://github.com/Vikash-Sharma-45', label: 'GitHub' },      // TODO: Update URL
+    { icon: <FiLinkedin size={19} />, href: 'https://www.linkedin.com/in/vikash-sharma-291366306 ', label: 'LinkedIn' }, // TODO: Update URL
     { icon: <FiTwitter size={19} />, href: 'https://twitter.com/vikashsparmar', label: 'Twitter' },    // TODO: Update URL
-    { icon: <FiMail size={19} />, href: 'mailto:vikash.sharma@example.com', label: 'Email' },          // TODO: Update email
+    { icon: <FiMail size={19} />, href: 'mailto:vikashsharmavk58@gmail.com', label: 'Email' },          // TODO: Update email
   ];
 
   return (
