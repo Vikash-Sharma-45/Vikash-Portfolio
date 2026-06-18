@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { FiMail, FiMapPin, FiGithub, FiLinkedin, FiTwitter, FiSend } from 'react-icons/fi';
+import { FiMail, FiMapPin, FiGithub, FiLinkedin, FiTwitter, FiSend, FiPhone } from 'react-icons/fi';
 
 const Contact = () => {
   const ref = useRef(null);
@@ -102,8 +102,9 @@ const Contact = () => {
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', marginBottom: '2rem' }}>
               {[
-                { icon: <FiMail size={17} />, label: 'Email', value: 'vikash.sharma@example.com' }, // TODO: Update
-                { icon: <FiMapPin size={17} />, label: 'Location', value: 'India' }, // TODO: Update location
+                { icon: <FiMail size={17} />, label: 'Email', value: 'vikashsharmavk58@gmail.com', href: 'mailto:vikashsharmavk58@gmail.com' },
+                { icon: <FiPhone size={17} />, label: 'Phone', value: '+91 7091166609', href: 'tel:+917091166609' },
+                { icon: <FiMapPin size={17} />, label: 'Location', value: 'India' },
               ].map((item) => (
                 <div key={item.label} style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
                   <span style={{
@@ -117,7 +118,23 @@ const Contact = () => {
                   </span>
                   <div>
                     <p style={{ color: '#64748B', fontSize: '0.72rem', fontFamily: 'JetBrains Mono, monospace' }}>{item.label}</p>
-                    <p style={{ color: '#CBD5E1', fontSize: '0.9rem' }}>{item.value}</p>
+                    {item.href ? (
+                      <a
+                        href={item.href}
+                        style={{
+                          color: '#CBD5E1',
+                          fontSize: '0.9rem',
+                          textDecoration: 'none',
+                          transition: 'color 0.2s',
+                        }}
+                        onMouseEnter={e => e.currentTarget.style.color = '#10B981'}
+                        onMouseLeave={e => e.currentTarget.style.color = '#CBD5E1'}
+                      >
+                        {item.value}
+                      </a>
+                    ) : (
+                      <p style={{ color: '#CBD5E1', fontSize: '0.9rem' }}>{item.value}</p>
+                    )}
                   </div>
                 </div>
               ))}
