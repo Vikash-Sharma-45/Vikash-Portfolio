@@ -4,24 +4,13 @@
 export const projects = [
   {
     id: 1,
-    title: "Calori Tracker",
-    description: "Cal Ai a calori tracker app tha tracks realtime daily calories",
+    title: "Banking Transaction System",
+    description: "Designed and developed a backend for banking transaction management system that simulates core banking operations. The application allows users to register and securely log in, create and manage bank accounts, and perform essential transactions such as credit and debit operations with real-time balance tracking.",
     image: null, // TODO: Add project screenshot
     category: "Full Stack",
-    tech: ["React", "Node.js", "Express", "MongoDB", "Stripe", "Tailwind"],
-    github: "https://github.com/Vikash-Sharma-45/Cal-Ai", // TODO: Replace
-    demo: "https://cal-ai-irk8.vercel.app/#/onboarding", // TODO: Replace
-    featured: true,
-  },
-  {
-    id: 2,
-    title: "Real-Time Chat App",
-    description: "An innovative web application that leverages advanced AI models to generate humorous and context-aware excuses for various situations. Features include a chat interface, customizable excuse categories, and social sharing options. Built with a focus on user experience and responsive design.",
-    image: null,
-    category: "Full Stack",
-    tech: ["React", "Node.js", "Socket.io", "MongoDB", "Express"],
-    github: "https://notmyfaultai.vercel.app",
-    demo: "https://notmyfaultai.vercel.app",
+    tech: ["Node.js", "Express", "MongoDB", "Google SMTP"],
+    github: "https://github.com/Vikash-Sharma-45/Banking-Transaction-System.git", // TODO: Replace
+    demo: "", // TODO: Replace
     featured: true,
   },
   {
@@ -33,6 +22,17 @@ export const projects = [
     tech: ["React", "Redux", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/Vikash-Sharma-45/Sukoon-Ai-Backend",
     demo: "https://sukoon-ai-kttc.vercel.app",
+    featured: true,
+  },
+  {
+    id: 1,
+    title: "Calori Tracker",
+    description: "Cal Ai a calori tracker app tha tracks realtime daily calories",
+    image: null, // TODO: Add project screenshot
+    category: "Full Stack",
+    tech: ["React", "Node.js", "Express", "MongoDB", "Stripe", "Tailwind"],
+    github: "https://github.com/Vikash-Sharma-45/Cal-Ai", // TODO: Replace
+    demo: "https://cal-ai-irk8.vercel.app/#/onboarding", // TODO: Replace
     featured: true,
   },
   {

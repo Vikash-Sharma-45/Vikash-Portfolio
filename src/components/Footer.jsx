@@ -13,9 +13,9 @@ const Footer = () => {
   };
 
   const socials = [
-    { icon: <FiGithub size={18} />, href: 'https://github.com/vikashsparmar', label: 'GitHub' },       // TODO: Update
+    { icon: <FiGithub size={18} />, href: 'https://github.com/Vikash-Sharma-45', label: 'GitHub' },       // TODO: Update
     { icon: <FiLinkedin size={18} />, href: 'https://linkedin.com/in/vikash-sharma', label: 'LinkedIn' }, // TODO: Update
-    { icon: <FiTwitter size={18} />, href: 'https://twitter.com/vikashsparmar', label: 'Twitter' },    // TODO: Update
+    { icon: <FiTwitter size={18} />, href: 'https://twitter.com/vikashsharma', label: 'Twitter' },    // TODO: Update
   ];
 
   return (
